@@ -2,14 +2,13 @@
 
 menu:
   主页: /
-  随笔: /tags/随笔/
+#  随笔: /tags/随笔/
 
 # SubNav
 subnav:
-  github: "#"
-  weibo: "#"
-  rss: "#"
-  zhihu: "#"
+  github: "https://github.com/mrseal"
+#  weibo: "#"
+#  zhihu: "#"
   #qq: "#"
   #weixin: "#"
   #jianshu: "#"
@@ -17,13 +16,12 @@ subnav:
   #segmentfault: "#"
   #bilibili: "#"
   #acfun: "#"
-  #mail: "mailto:litten225@qq.com"
+  mail: "mailto:sdcf2010@gmail.com"
   #facebook: "#"
   #google: "#"
   #twitter: "#"
-  #linkedin: "#"
-
-rss: /atom.xml
+  linkedin: "https://www.linkedin.com/in/fei-chen-04930444/"
+  rss: "/atom.xml"
 
 # 是否需要修改 root 路径
 # 如果您的网站存放在子目录中，例如 http://yoursite.com/blog，
@@ -33,7 +31,7 @@ root:
 # Content
 
 # 文章太长，截断按钮文字
-excerpt_link: more
+#excerpt_link: more
 # 文章卡片右下角常驻链接，不需要请设置为false
 show_all_link: '展开全文'
 # 数学公式
@@ -56,10 +54,10 @@ weixin:
 # Miscellaneous
 baidu_analytics: ''
 google_analytics: ''
-favicon: /favicon.png
+favicon: /img/favicon.png
 
 #你的头像url
-avatar:
+avatar: /img/avatar.jpg
 
 #是否开启分享
 share_jia: true
@@ -95,12 +93,14 @@ slider:
 # 智能菜单
 # 如不需要，将该对应项置为false
 # 比如
-#smart_menu:
-#  friends: false
 smart_menu:
-  innerArchive: '所有文章'
-  friends: '友链'
-  aboutme: '关于我'
+  innerArchive: false
+  friends: false
+  aboutme: false
+#smart_menu:
+ # innerArchive: '所有文章'
+ # friends: '友链'
+ # aboutme: '关于我'
 
 friends:
   友情链接1: http://localhost:4000/
